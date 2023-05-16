@@ -15,4 +15,9 @@ it will install all the node modules.
 
 -In models folderopen index.js file and configure your database . write your database name password hostname and connect your local DB to node app.
 you can define your own models(table) similar to the one in code.
+ -you can test the code by opening the port its listening in your chrome url.
+ 
+```
+http://localhost:3000/your required http reqest you want to run.
+```
 
