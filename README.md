@@ -1,13 +1,18 @@
 # sequelizeorm
 **Basic Introduction:**
-This code is a lambda function written in **nodejs** and **sequelize**. Lambda function is trigger via API calls and perform crud operatiuon on rds in aws.
-
-- Create AWS RDS instance
+This is a code written in Nodejs express and sequelize(with postgres). its a practice of using sequelize in node . this code contain different sequelize concept implemented with proper comments . This can help one to implement and use sequelize method to perform crud operation to the local database.
 ```
-1. Login to your AWS account
-2. Create RDS instance from database services(free tier) with Postgres. (i.e. mydatabase)
-3. In Additional information give your database a name.
-4. Allow public access to your database
-5. Let remaining settings be default. After creating RDS instance save the endpoint into clipboard.
-
+-Create a local database in your system(using p4admin)
+give your database name , password and additional infomation and save the DB.
 ```
+
+-Create a folder and add the code to it.
+- you need to install all the required node modules in that folder. In terminal write command 
+```
+npm i
+```
+it will install all the node modules.
+
+-In models folderopen index.js file and configure your database . write your database name password hostname and connect your local DB to node app.
+you can define your own models(table) similar to the one in code.
+
